@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 #read data
-df = pd.read_excel(r"C:\Users\Hazim\Documents\streamlit\tugas2\factbook.xlsx")
+df = pd.read_excel("factbook.xlsx")
 
 #Bubble Chart
 #variable
