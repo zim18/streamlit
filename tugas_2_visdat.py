@@ -36,6 +36,6 @@ fig.update_layout(
 st.plotly_chart(fig)
 
 #dropdown list
-select_col = st.selectbox("List Kolom", df.columns)
+select_col = st.selectbox("List Kolom Yang Ada Pada Dataset", df.columns)
 
 st.write(df[select_col])
