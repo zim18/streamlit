@@ -10,7 +10,7 @@ df = pd.read_excel("factbook.xlsx")
 x_col = "  GDP per capita "
 y_col = " Life expectancy at birth"
 size_col = "  Population "
-clr = "Continent"
+clr = " Birth rate"
 hvr_name_col = "Country"
 
 fig = px.scatter(df, x=x_col, y=y_col, size=size_col, color=clr, hover_name=hvr_name_col,
@@ -21,7 +21,7 @@ fig.update_layout(
     xaxis_title="GDP per capita",
     yaxis_title="Life expectancy"
 )
-st.plotly_chart(fig, height=1000, width=1200)
+st.plotly_chart(fig)
 
 #dropdown list
 select_col = st.selectbox("List Kolom", df.columns)
