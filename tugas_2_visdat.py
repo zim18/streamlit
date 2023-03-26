@@ -16,7 +16,7 @@ size_var = st.radio("Select size variable:", [" Area", "  Population ", "  Highw
 clr = st.radio("Select color variable:", [" Area", "  Population ", "  Highways ", "  Internet users ", " Birth rate"])
 hvr_name_col = "Country"
 
-fig = px.scatter(df, x=x_col, y=y_col, size=size_col, color=clr, hover_name=hvr_name_col,
+fig = px.scatter(df, x=x_var, y=y_var, size=size_var, color=clr, hover_name=hvr_name_col,
                  log_x=True, size_max=60)
 
 fig.update_layout(
