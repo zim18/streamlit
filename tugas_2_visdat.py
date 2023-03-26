@@ -4,9 +4,9 @@ import plotly.express as px
 
 st.title("Tugas 2 Metode Visualisasi Data")
 st.header("Anggota Kelompok:")
-st.header("Abror Muhammad Hazim (1305213026)")
-st.header("Armand Aryasatya Prakarsa (1305210089)")
-st.header("Muhamad Sarip (1305210093)")
+st.markdown("Abror Muhammad Hazim (1305213026)")
+st.markdown("Armand Aryasatya Prakarsa (1305210089)")
+st.markdown("Muhamad Sarip (1305210093)")
 
 #read data
 df = pd.read_excel("factbook.xlsx")
