@@ -9,7 +9,7 @@ st.markdown("Armand Aryasatya Prakarsa (1305210089)")
 st.markdown("Muhamad Sarip (1305210093)")
 
 st.header("____________________________________")
-st.header("Silahkan pilih variabel untuk ditampilkan pada bubble chart")
+st.subheader("Silahkan pilih variabel untuk ditampilkan pada bubble chart")
 
 #read data
 df = pd.read_excel("factbook.xlsx")
