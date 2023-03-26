@@ -8,7 +8,7 @@ st.markdown("Abror Muhammad Hazim (1305213026)")
 st.markdown("Armand Aryasatya Prakarsa (1305210089)")
 st.markdown("Muhamad Sarip (1305210093)")
 
-st.header("_______________________________")
+st.header("__________________________________")
 st.header("Silahkan pilih variabel untuk ditampilkan pada bubble chart")
 
 #read data
